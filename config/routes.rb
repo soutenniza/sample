@@ -2,6 +2,8 @@ Sample::Application.routes.draw do
  
  
 
+  get "users/new"
+
   root to: 'static_page#home'
  
   match '/signup', to: 'users#new'
